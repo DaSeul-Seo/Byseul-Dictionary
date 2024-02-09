@@ -1,2 +1,2 @@
-# CS-Reposiroty
-CS 정리 Repository
+# Byseul-Dictionary
+
