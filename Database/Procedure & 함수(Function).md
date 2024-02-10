@@ -124,7 +124,7 @@ END ;
 
 ### Procedure와 함수의 차이
 
-![1](../Img/db1.png)
+![1](./Img/db1.png)
 
 
 ### 💡 Reference

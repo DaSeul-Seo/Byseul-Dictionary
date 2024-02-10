@@ -1,6 +1,6 @@
 ### JAVA Collection Framework
 
-![1](../Img/java1.png)
+![1](./img/java1.png)
 
 - Collection Framwork를 사용하는 이유
     - 크기 고정, Insert & Delete 시간 등의 문제로 기존 데이터 처리방법을 Array를 보완 (List, Map, Set)
