@@ -1,6 +1,6 @@
 ## Byseul-Dictionary
 
-### 자료구조 (Data Structure)
+### [자료구조 (Data Structure)](https://github.com/DaSeul-Seo/Byseul-Dictionary/tree/main/Data%20Structure)
 
 ### 데이터베이스 (Database)
 
