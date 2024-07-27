@@ -46,6 +46,27 @@ String str3 = new String("Programming");
 - ex) Java ===> x.add / C언어 ===> x → add
 
 ## 데이터베이스 / 트랜잭션 / 관계대수
+#### DDL
+- Create Domain 도메인명 데이터타입 (Default 기본값) (Constraint 제약조건명 Check (범위값));
+- Create Table 테이블명 컬럼명 데이터타입 (널 조건), ... (Primary Key 컬럼명) (Foreign Key 컬럼명 References 테이블명(컬럼명)) (On Delete설정) (Constraint 제약조건);
+- Create View 뷰명([컬럼명들]) AS Select 문;
+- Create (Unique) Index 인덱스명 ON 테이블명(속성명 [ACS|DESC]);
+- Alter Table 데이블명 Add 속성명 데이터타입;
+- Alter Table 테이블명 Alter 속성명 데이터타입;
+- Alter Table 테이블명 Drop Column 속성명 [Cascade];
+- Drop [Table, View, Index, Domain, Schema] [삭제할것이름] [Cascade|Restrict];
+- Drop Constraint 제약조건명;
+
+#### DCL
+- Grant 권한리스트(All, Select, Insert, Delete, Update) On 데이터베이스명 To 사용자명 (With Grant Option);
+- Revoke (Grant Option For) 권한리스트 On 데이터베이스명 From 사용자 [Cascade];
+
+#### DML
+- Insert Into 테이블명(컬럼명들) Values(데이터들);
+- Delete From 테이블명 (Where 조건);
+- Update 테이블명 Set 컬럼명 = 데이터 (Where 조건);
+- Select (컬럼명들|*) From 테이블명 Where (조건) Group By (컬럼명들) Having (그룹조건) Order By 속성명 (ASC|DESC);
+
 #### 데이터베이스 정의
 - 공유 데이터(Shared Data) : 여러 사용자가 공동으로 사용하는 데이터
 - 저장 데이터(Stored Data) : 저장 매체에 저장된 데이터
