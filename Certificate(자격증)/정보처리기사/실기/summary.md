@@ -1,4 +1,49 @@
 ## 프로그래밍 언어
+#### Python
+- Python는 print(x, y)인 경우 결과값이 x y로 띄어쓰기 되어서 출력됨
+---
+- Python 문자열 대입
+    - c = "R AND %s" % "STR ==> R AND STR
+---
+- 2진수를 10진수로 바꾸는 코드
+    - 2진수 % 10
+    - ① %
+    - ② 10
+
+    ```
+    #include <stdio.h>
+    main() {
+        int input = 10110;
+        int di = 1;
+        while(2) {
+            if (input == 0) break;
+            sum = sum + (input { ① } { ② }) * di;
+            di = di * 2;
+            input = input / 10;
+        }
+        printf("%d", sum);
+    }
+    ```
+
+#### Java
+```
+String str1 = "Programming";
+String str2 = "Programming";
+String str3 = new String("Programming");
+```
+- str1과 str2는 같은 주소값
+- str3은 다른 주소값
+- str1 == str2 : true ===> 동일한 주소값
+- str1 == str3 : false ===> 다른 주소값
+- str1.equals(str3) : true ===> 동일한 값
+- str2.equals(str3) : true ===> 동일한 값
+---
+- 완전수 : N의 약수의 합이 N과 같음
+- 6, 28, 496, 8128
+
+#### C
+- C언어에서는 주소에 해당하는 변수를 부를때 '→' 기호로 씀
+- ex) Java ===> x.add / C언어 ===> x → add
 
 ## 데이터베이스 / 트랜잭션 / 관계대수
 #### 데이터베이스 정의
