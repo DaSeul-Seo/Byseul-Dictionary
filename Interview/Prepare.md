@@ -1,13 +1,13 @@
 ## 0. 직전 회사 프로젝트
 
 
-## 1. 교육 프로젝트                                                   
+## 1. 교육 프로젝트
 
 
 ## 2. 대학원 과제
 
 
-## 2. Basic
+## 3. Basic
 - 좋은 코드
 - 객체지향 프로그래밍
 - TDD란 무엇이며 장단점
@@ -21,7 +21,7 @@
 - CI/CD
 - 대용량 트래픽에서 장애가 발생하면 어떻게 대응
 
-## 3. Java
+## 4. Java
 - JVM & Java 실행방식
 - Garbage Collection
 - 컬렉션 프레임워크
@@ -61,7 +61,7 @@
 - JPA 쓰는 이유
 - JPA 영속성 컨텍스트의 이점(5가지)
 
-## 4. DB
+## 5. DB
 - Key
 - Index
     - index에 대한 설명과 장/단점
@@ -83,7 +83,7 @@
 - 몽고DB의 특성
     - 
 
-## 5. Network
+## 6. Network
 - HTTP & HTTPS
 - HTTP 의 GET 과 POST 비교 (CRUD)
 - OSI 7 계층
